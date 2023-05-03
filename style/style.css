@@ -1,15 +1,26 @@
-body{
+/*body{
     background-color: aqua;
-}
+}*/
 
 /*RESPONSIVE*/
 
 /*Media Screen*/
 /*Cuando llegue a 700px cambia de color*/
-@media screen and (min-width:700px) {
+/*@media screen and (min-width:700px) {
     body{
         background-color: red;
     }
+}*/
+
+
+ul{
+    list-style: none;
+    padding: 0;
 }
 
-
+@media screen and (max-width: 600px) {
+    
+li{
+    display: inline-block;
+}    
+}
