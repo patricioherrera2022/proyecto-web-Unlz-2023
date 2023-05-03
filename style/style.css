@@ -12,15 +12,34 @@
     }
 }*/
 
+header{
+    background-color: red;
+}
 
 ul{
     list-style: none;
     padding: 0;
 }
 
-@media screen and (max-width: 600px) {
+.fondo_celeste{
+    background-color: aquamarine;
+}
+
+.fondo_rosa{
+    background-color: rosybrown;
+}
+
+@media screen and (min-width: 600px) {
     
 li{
     display: inline-block;
 }    
 }
+
+@media screen and (min-width:250px) {
+    article{
+        display: inline-block;
+        width: 49%;
+    }
+}
+
